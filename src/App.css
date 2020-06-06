@@ -1,18 +1,27 @@
-html, body {
+html,
+body {
   height: 100%;
   padding: 0;
   margin: 0;
   width: 100%;
-  color:  #f4f4f4;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: #BA8F95;
+  color: #f4f4f4;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #ba8f95;
 }
 
 .btn {
   border: none;
   height: 50px;
   background-color: #ffcad4;
-} 
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.btn:hover {
+  background-color: #dbcdf0;
+  color: #555;
+}
+
 .card {
   border: none;
 }
@@ -26,5 +35,5 @@ html, body {
 }
 
 .card-body {
-  background-color: #BA8F95;
+  background-color: #ba8f95;
 }

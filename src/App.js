@@ -4,7 +4,7 @@ import "./App.css";
 import images from "./images";
 import Texti from './components/Texti';
 import Confetti from 'react-dom-confetti';
-let { heart, baloons } = images;
+let { heart, balloons } = images;
 
 class App extends React.Component {
   constructor() {
@@ -57,7 +57,7 @@ class App extends React.Component {
               <h5 class='card-title'>Elsku Sara,</h5>
               <p class='card-text'>
                 Til hamingju með stúdentinn{" "}
-                <img src={baloons} width='40' height='40' /> <br />
+                <img src={balloons} width='40' height='40' /> <br />
                 <br />
                 Ég er svo stolt af þér og vissi að þú myndir rúlla þessu upp!
                 <br /><br />
@@ -80,11 +80,10 @@ class App extends React.Component {
 
           <div
             key='back'
-            class='card mx-auto'
+            class='card mx-auto mt-3'
             style={{  height: 700, width: 350 }}
           >
             <div style={{width: '100%'}} class='card-body d-flex flex-column justify-content-around'>
-            <h4 class='card-title text-center mb-3'>Hjartaslag</h4>
               <div style={{width: '100%'}} class='d-flex justify-content-center'>
                 <iframe
                   style={{  border: 0, width: 360, height: 442 }}
@@ -96,9 +95,7 @@ class App extends React.Component {
                   </a>
                 </iframe>
               </div>
-              
               <div class='d-flex flex-column'>
-              
               {isVisible ? <Texti /> : null}
               <button
                   class='btn mb-3'

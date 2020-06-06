@@ -9,6 +9,7 @@ class Texti extends Component {
     render() {
         return (
             <p style={{ width: "100%", fontSize: 20 }}>
+                <h4 class='card-title mb-3'>Hjartaslag</h4>
               Þitt ofurlitla hjartaslag<br />
               slær og slær og slær<br />
               ört inní þér.<br /><br />
